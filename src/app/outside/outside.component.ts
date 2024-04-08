@@ -2,19 +2,20 @@ import { Component, OnInit } from "@angular/core";
 import { RouterExtensions } from "@nativescript/angular";
 
 @Component({
-  selector: "Browse",
-  templateUrl: "./browse.component.html",
+  selector: "Outside",
+  templateUrl: "./outside.component.html",
 })
-export class BrowseComponent implements OnInit {
-  constructor(private router: RouterExtensions) {
+export class OutsideComponent implements OnInit {
+  constructor(private _routerExtensions: RouterExtensions) {
     // Use the component constructor to inject providers.
   }
 
   ngOnInit(): void {
+    console.log("OPEN");
     // Use the "ngOnInit" handler to initialize data for the view.
   }
 
-  goOutside() {
-    this.router.navigateByUrl("/outside/default");
+  onBackTap(): void {
+    this._routerExtensions.back();
   }
 }

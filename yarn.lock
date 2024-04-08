@@ -1534,6 +1534,11 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.5.tgz#4fc56c15c580b9adb7dc3c333a134e540b44bfb1"
   integrity sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==
 
+"@nativescript/android@8.6.2":
+  version "8.6.2"
+  resolved "https://registry.yarnpkg.com/@nativescript/android/-/android-8.6.2.tgz#582ba50da95f046bceecb7f19c7f8ef737eb0bda"
+  integrity sha512-z93vjHgy7Z8SCPBHS/fDGYnJJQIgqrd6nSJ7tWbTIxnDPwMSYUxdA4T0dnjgGrnIkvpkGfUGOAxgjS9TnIp90Q==
+
 "@nativescript/angular@^16.0.0":
   version "16.0.1"
   resolved "https://registry.yarnpkg.com/@nativescript/angular/-/angular-16.0.1.tgz#cd087c5be991727eebb6f9375d42b92add7a29d2"

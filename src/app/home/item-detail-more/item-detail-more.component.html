@@ -3,7 +3,7 @@
     (tap)="onBackTap()"
     android.systemIcon="ic_menu_back"
   ></NavigationButton>
-  <Label [text]="item.name"></Label>
+  <Label [text]="item.name + 'more'"></Label>
 </ActionBar>
 
 <GridLayout>
@@ -12,5 +12,4 @@
     verticalAlignment="top"
     [text]="item.description"
   ></Label>
-  <Button [nsRouterLink]="['details']" text="Show more"></Button>
 </GridLayout>

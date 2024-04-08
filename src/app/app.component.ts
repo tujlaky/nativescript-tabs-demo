@@ -1,8 +1,8 @@
-import { Component, OnInit } from '@angular/core'
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'ns-app',
-  templateUrl: 'app.component.html',
+  selector: "ns-app",
+  templateUrl: "app.component.html",
 })
 export class AppComponent implements OnInit {
   constructor() {
@@ -10,6 +10,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    console.log("start");
     // Init your component properties here.
   }
 }
